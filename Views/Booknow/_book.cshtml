@@ -1,0 +1,136 @@
+﻿@{
+    ViewData["Title"] = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using System.Data;
+@model DataTable
+
+
+<br />
+<br />
+<br />
+<!-- Guest Details Start -->
+@if (TempData["AlertMsg1"] == null)
+{
+    <h3 class="alert text-success">@TempData["AlertMsg1"]</h3>
+
+}
+
+<div class="container g-3">
+    <h3 class="fnt">Guest Details</h3><br />
+    <div class="row">
+        <div class="col-md-6 line1 p-4">
+            <form>
+                <div class="form-row row">
+                    <div class="form-group col-md-2">
+                        <label for="form">Prefix</label>
+                        <select id="prefix" name="cars" class="form-control">
+                            <option value="Select.">Prefix</option>
+                            <option value="Mr.">Mr.</option>
+                            <option value="Miss">Miss</option>
+                            <option value="Ms.">Ms.</option>
+                            <option value="Mrs.">Mrs.</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="fname">First Name</label>
+                        <input type="fname" class="form-control" id="fname" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="lname">Last Name</label>
+                        <input type="lname" class="form-control" id="lname" placeholder="Last Name">
+                    </div>
+                </div><br />
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="mobile" class="form-control" id="mobile" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="E-Mail">
+                    </div>
+                </div><br />
+                <div class="form-row row">
+                    <div class="form-group col-md-6">
+                        <label for="Country">Country</label>
+                        <input type="Country" class="form-control" id="country" placeholder="Country">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="State">State</label>
+                        <input type="State" class="form-control" id="state" placeholder="State">
+                    </div>
+                    <br />
+                    <div class="form-group col-md-12">
+                        <br />
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address"
+                               placeholder="Apartment, studio, or floor">
+                    </div>
+                    <br />
+
+                </div> <br />
+
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </form>
+        </div>
+        <div class="col-md-1">
+        </div>
+
+        @foreach (DataRow dr in Model.Rows)
+        {
+            <div class="col-md-4 line1 p-3" style="border: 1px solid #d7d7d7; background: #fcf0e5; border-radius: 0px; z-index: 1;">
+                <h5 class="fnt">Your Stay</h5><br />
+                <div class="row ">
+                    <div class="col-md-6">
+                        <b>Check-in </b><br />After 12:00 PM
+                    </div>
+                    <div class="col-md-6">
+                        <b>Check-out</b> <br />Before 10:00 PM
+                    </div>
+                </div>
+                <hr />
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <b>Check-in Date : </b> @Convert.ToDateTime(@dr["CheckIn"]).ToString("dd-MM-yyyy")  <br /> <b>Check-out Date : </b>@Convert.ToDateTime(@dr["CheckOut"]).ToString("dd-MM-yyyy")
+                    </div>
+                    <div class="col-md-12">
+                        <i><b>Adults : </b>@dr["TotalAdults"]</i><br />
+                        <i><b>Childs : </b>@dr["TotalChilds"]</i>
+                    </div>
+                </div> <br />
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <b> Room Name : </b>@dr["CategoryName"]  @*HMS_RoomCategoryModel*@
+                    </div>
+
+                </div>
+                <br />
+                <hr />
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Total Price : </h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>@dr["RoomCost"]  @*HMS_RoomBookingModel*@</h5>
+                        <span>(INR Tax Included)</span>
+                    </div>
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>
+
+<!-- Guest Details End -->
+
+
+<br />
+<br />
+<br />

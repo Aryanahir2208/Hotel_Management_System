@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "RoomList";
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+}
+
+@using System.Data;
+@model DataTable
+
+
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="text-left">
+                    <span class="caption-subject font-red sbold uppercase">
+
+                        @if (TempData["AlertMsg"] != null)
+                        {
+                            <h3 class="alert text-success">@TempData["AlertMsg"]</h3>
+                        }
+                    </span>
+                </div>
+                <div class="text-right">
+                    <a class="btn btn-success" asp-controller="HMS_Room" asp-action="Add">Add New Room</a>
+                </div> </br>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Room List</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped" id="table-1">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">
+                                            Sr.
+                                        </th>
+                                        <th class="text-center">Room Location</th>
+                                        <th class="text-center">Room Category</th>
+                                        <th class="text-center">Room Cost</th>
+                                        <th class="text-center">Bed Size</th>
+                                        <th class="text-center">Room Photo</th>
+                                        <th class="text-center">Description</th>
+                                        <th class="text-center">Created</th>
+                                        <th class="text-center">Modified</th>
+                                        <th class="text-center">Edit</th>
+                                        <th class="text-center">Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="myTable">
+
+                                    @{
+                                        int i = 1;
+                                    }
+                                    @foreach (DataRow dr in Model.Rows)
+                                    {
+                                        <tr>
+                                            <td>@i</td>
+                                            <td class="text-center">@dr["RoomLocation"]</td>
+                                            <td class="text-center">@dr["CategoryName"]</td>
+                                            <td class="text-center">@dr["RoomCost"]</td>
+                                            <td class="text-center">@dr["BedSize"]</td>
+                                            <td class="text-center"><img src="@Url.Content(dr["RoomPhoto"].ToString())" style="height:auto;width:50px" /></td>
+                                            <td class="text-center">@dr["Description"]</td>
+                                            <td class="text-center">@Convert.ToDateTime(dr["Created"]).ToString("dd-MM-yyyy")</td>
+                                            <td class="text-center">@Convert.ToDateTime(dr["Modified"]).ToString("dd-MM-yyyy")</td>
+                                            <td class="text-center">
+                                                <a asp-controller="HMS_Room" asp-action="Add" asp-route-RoomID="@Convert.ToInt32(dr["RoomID"])" class="btn btn-primary">Edit</a>
+                                            </td>
+                                            <td class="text-center">
+                                                <form method="post" asp-area="HMS_Room" asp-controller="HMS_Room" asp-action="Delete">
+                                                    <input type="hidden" name="RoomID" value="@Convert.ToInt32(dr["RoomID"])" />
+                                                    <button type="submit" class="btn btn-danger " onclick="return confirm('Are you sure you want to delete : @dr["CategoryName"]')">Delete</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                        i++;
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hotel_Management_System
+build_property.RootNamespace = Hotel_Management_System
+build_property.ProjectDir = C:\Users\aryan\OneDrive\Desktop\.NET Project\Hotel_Management_System\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\aryan\OneDrive\Desktop\.NET Project\Hotel_Management_System
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/CON_Contact/Views/CON_Contact/ContactList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ09OX0NvbnRhY3RcVmlld3NcQ09OX0NvbnRhY3RcQ29udGFjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/CON_Contact/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ09OX0NvbnRhY3RcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_CheckAvail/Views/HMS_CheckAvail/CheckAvailList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX0NoZWNrQXZhaWxcVmlld3NcSE1TX0NoZWNrQXZhaWxcQ2hlY2tBdmFpbExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_CheckAvail/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX0NoZWNrQXZhaWxcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_RoomBooking/Views/HMS_RoomBooking/RoomBookingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX1Jvb21Cb29raW5nXFZpZXdzXEhNU19Sb29tQm9va2luZ1xSb29tQm9va2luZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_RoomCategory/Views/HMS_RoomCategory/RoomCategoryAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX1Jvb21DYXRlZ29yeVxWaWV3c1xITVNfUm9vbUNhdGVnb3J5XFJvb21DYXRlZ29yeUFkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_RoomCategory/Views/HMS_RoomCategory/RoomCategoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX1Jvb21DYXRlZ29yeVxWaWV3c1xITVNfUm9vbUNhdGVnb3J5XFJvb21DYXRlZ29yeUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_RoomCategory/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX1Jvb21DYXRlZ29yeVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_Room/Views/HMS_Room/RoomAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX1Jvb21cVmlld3NcSE1TX1Jvb21cUm9vbUFkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_Room/Views/HMS_Room/RoomList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX1Jvb21cVmlld3NcSE1TX1Jvb21cUm9vbUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/HMS_Room/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSE1TX1Jvb21cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/Home/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSG9tZVxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Areas/Home/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSG9tZVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/About/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcYWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Booking/booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xib29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Booknow/booknow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va25vd1xib29rbm93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Booknow/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va25vd1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Booknow/_book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va25vd1xfYm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Booknow/_bookdetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va25vd1xfYm9va2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Contact/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Room/room.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxyb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Service/service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxzZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Shared/Admin/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Team/team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVx0ZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Testimonial/testimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcdGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aryan/OneDrive/Desktop/.NET Project/Hotel_Management_System/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jowtxwvwn6

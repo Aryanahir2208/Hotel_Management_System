@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Room Add/Edit";
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+}
+
+
+@model Hotel_Management_System.Areas.HMS_Room.Models.HMS_RoomModel
+
+<section class="section">
+    <div class="section-body">
+        <div class="row">
+            <div class="col-12 ">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Room Add/Edit</h4>
+                    </div>
+
+                    <form role="form" class="form-horizontal" asp-area="HMS_Room" asp-controller="HMS_Room" asp-action="Save" enctype="multipart/form-data">
+                        @Html.HiddenFor(x=>x.RoomID)
+                        @Html.HiddenFor(x=>x.RoomPhoto)
+
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label>Room Location</label>
+                                <input type="text" class="form-control" asp-for="RoomLocation">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Select</label>
+                                <select class="form-control" asp-for="RoomCategoryID" asp-items="@(new SelectList(ViewBag.RoomCategoryList,"RoomCategoryID","CategoryName"))">
+                                    <option class="form-group">Select Room Category</option>
+                                </select>
+                            </div>
+
+                         
+                            <div class="form-group">
+                                <label>Room Cost</label>
+                                <input type="text" class="form-control" asp-for="RoomCost">
+                            </div>
+
+                            <div class="form-group">
+                                <label>BedSize</label>
+                                <input type="text" class="form-control" asp-for="BedSize">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Description</label>
+                                <input type="text" class="form-control" asp-for="Description">
+                            </div>
+
+                           
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="form_control_1">Room Photo</label>
+                                <input type="file" class="form-control" id="form_control_1" asp-for="File1" placeholder="Upload File">
+                            </div>
+                            <div class="form-actions">
+                                <div class="row">
+                                    <div class="col-md-offset-2 col-md-10 ">
+                                        <input type="submit" class="btn btn-success" />
+                                        <a class="btn btn-danger" asp-action="Index">Cancel</a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+</section>
+
